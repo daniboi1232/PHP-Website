@@ -1,0 +1,22 @@
+<h1>Insert Trap Information</h1>
+<form action="insertnewtrap.php" method='post'>
+    <label for="markernumber">Marker Number: </label>
+    <br>
+    <input type="number" name="markernumber" value="<?php if (isset($_POST['markernumber'])) echo $_POST['markernumber']; ?>"><br>
+    <label for="trapregion">Trap Location:</label><br>
+	<select name="trap"><br>
+        <option value="" disabled selected>Select Trap Region</option>
+        <option value="canterbury">Canterbury</option>
+		
+	</select> <br> <br>
+	<select name="trappark"><br>
+        <option value="" disabled selected>Select Trap Park</option>
+		<option value="Arthur's Pass National Park">Arthur's Pass National Park</option>
+	</select> <br><br>
+    <div class="notes">
+        <label for="notes" ><b>Trap Notes:</b></label><br>
+        <textarea id="notes" name="notes"></textarea>
+    </div>
+    <br><br>
+    <input type="submit" value="Submit">
+</form>
