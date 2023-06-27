@@ -8,10 +8,12 @@
     <title>Pet Page</title>
 </head>
 <body>
+    <h1>hellp world</h1>
 <?php
 
-require("../includes/connect.inc");
-include "../includes/nav.html";
+require("includes/connect.inc");
+include 'includes/nav.html';
+
 
 
 ?>
@@ -19,7 +21,7 @@ include "../includes/nav.html";
 <h1>This is the Home page</h1>
 
 <?php
-include "../includes/footer.html";
+include "includes/footer.html";
 ?>
 </body>
 </html>

@@ -11,7 +11,7 @@
 <?php
 
 require("../includes/connect.inc");
-include "../includes/nav.html";
+include ('includes/nav.html');
 
 
 ?>
@@ -20,7 +20,7 @@ include "../includes/nav.html";
 
 
 <?php
-include "../includes/footer.html";
+include ("../includes/footer.html");
 ?>
 </body>
 </html>
